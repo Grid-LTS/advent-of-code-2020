@@ -1,7 +1,8 @@
 import os
 import re
 
-input = os.path.join(os.path.dirname(os.path.abspath(__file__)), "input/07-bags.txt")
+python_dir=os.path.dirname(os.path.abspath(__file__))
+input = os.path.join(os.path.dirname(python_dir),  "input/07-bags.txt")
 
 def parse_bags1():
     bags = dict()

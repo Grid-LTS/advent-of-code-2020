@@ -1,6 +1,7 @@
 import os
 
-input = os.path.join(os.path.dirname(os.path.abspath(__file__)), "input/05-boarding-pass.txt")
+python_dir=os.path.dirname(os.path.abspath(__file__))
+input = os.path.join(os.path.dirname(python_dir),  "input/05-boarding-pass.txt")
 
 max_seat_id = 116 * 8 + 8
 min_seat_id = 2 * 8

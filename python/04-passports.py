@@ -1,6 +1,7 @@
 import os
 
-input = os.path.join(os.path.dirname(os.path.abspath(__file__)), "input/04-passports.txt")
+python_dir=os.path.dirname(os.path.abspath(__file__))
+input = os.path.join(os.path.dirname(python_dir),  "input/04-passports.txt")
 
 def passports():
     valid_keys = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']

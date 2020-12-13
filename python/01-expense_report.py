@@ -1,6 +1,6 @@
 import os
-
-input = os.path.join(os.path.dirname(os.path.abspath(__file__)), "input/01-expense_report.txt")
+python_dir=os.path.dirname(os.path.abspath(__file__))
+input = os.path.join(os.path.dirname(python_dir), "input/01-expense_report.txt")
 numbers = []
 with open(input, 'r') as infile:
     for line in infile:

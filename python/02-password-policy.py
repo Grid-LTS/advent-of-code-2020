@@ -1,7 +1,7 @@
 import os
 import re
-
-input = os.path.join(os.path.dirname(os.path.abspath(__file__)), "input/02-password-policy.txt")
+python_dir=os.path.dirname(os.path.abspath(__file__))
+input = os.path.join(os.path.dirname(python_dir), "input/02-password-policy.txt")
 
 def first_interpretation():
     good_pw = []
