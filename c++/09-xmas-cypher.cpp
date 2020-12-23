@@ -2,7 +2,6 @@
 #include <filesystem>
 #include <vector>
 #include <fstream>
-#include <bits/stdc++.h> 
 using namespace std;
 using namespace std::filesystem;
 
